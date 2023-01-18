@@ -38,7 +38,7 @@
     --title-color: #ffffff;
     --text-light: #B8B8B8;
     --primary-color: #2D6A4F;
-    --secondary-color: #B8B8B8;
+    --secondary-color: #000000;
     --white-color: #ffffff;
     --body-bg: #000000;
 
@@ -104,14 +104,13 @@ h5,
 h6 {
     font-family: var(--title-font);
     color: var(--title-color);
-    font-weight: var(--font-weight-semi-bold);
+    font-weight: var(--font-weight-bold);
     margin-bottom: 0;
 }
 
 h1 {
     font-size: 72px;
     line-height: 88px;
-    font-weight: var(--font-weight-bold);
 }
 
 h2 {
@@ -130,8 +129,8 @@ h4 {
 }
 
 h5 {
-    font-size: 22px;
-    line-height: 25.2px;
+    font-size: 32px;
+    line-height: 38px;
 }
 
 h6 {
@@ -433,6 +432,10 @@ textarea{
     padding: 125px 0;
 }
 
+.sec-spacer-90 {
+    padding: 90px 0;
+}
+
 .sec-spacer-top {
     padding-top: 125px;
 }
@@ -546,6 +549,10 @@ textarea{
     padding: 24px 0;
 }
 
+.mof-main-nav .nav-item a.active{
+    border-bottom: 4px solid var(--white-color);
+}
+
 /* -----------------------------------
     04. Banner
 -------------------------------------*/
@@ -555,10 +562,145 @@ textarea{
 }
 
 .banner-content .banner-des{
-    max-width: 878px;
     font-size: 35px;
     line-height: 42px;
+}
+
+.service-banner .banner-des{
+    max-width: 878px;
     margin-top: 90px;
+}
+
+.work-banner .banner-des{
+    max-width: 950px;
+    margin-top: 24px;
+}
+
+/* -----------------------------------
+    04. Services
+-------------------------------------*/
+
+.services-wpr{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 90px 130px;
+}
+
+.single-service h6{
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.single-service .des{
+    font-size: 18px;
+    color: var(--text-light);
+    line-height: 22px;
+    margin: 24px 0 42px;
+}
+
+.service-list p{
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    line-height: 19px;
+    color: var(--text-light);
+    margin-bottom: 16px;
+}
+
+.service-image .content{
+    position: relative;
+    top: -80px;
+    width: 80%;
+    background-color: var(--white-color);
+    padding: 32px;
+    margin: 0 auto;
+}
+
+.service-image .content h5{
+    color: var(--secondary-color);
+    margin-bottom: 24px;
+}
+
+/* -----------------------------------
+    04. Projects
+-------------------------------------*/
+
+.project-cat-links{
+    justify-content: center;
+    gap: 70px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.120348);
+}
+
+.project-cat-links .nav-link{
+    font-weight: var(--font-weight-medium);
+    color: var(--white-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.project-cat-links .nav-link.active{
+    border-bottom: 2px solid var(--white-color);
+}
+
+.single-project.mt-top{
+    margin-top: 50%;
+}
+
+.single-project .project-name{
+    position: relative;
+    left: -35%;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+
+.single-project .project-content p{
+    font-size: 12px;
+    font-weight: var(--font-weight-bold);
+    line-height: 15px;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+
+.single-project .project-services li{
+    position: relative;
+    font-size: 14px;
+    font-weight: var(--font-weight-normal);
+    line-height: 26px;
+    padding-left: 20px;
+}
+
+.project-services li::before{
+    position: absolute;
+    content: "+";
+    top: 0;
+    left: 0;
+}
+
+.project-content a.btn{
+    margin-top: 32px;
+}
+
+/* -----------------------------------
+    04. Partners
+-------------------------------------*/
+
+.partners-wpr{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    margin: 70px 0 150px;
+}
+
+.single-partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-wpr .single-partner img{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    vertical-align: middle;
 }
 
 /* -----------------------------------
