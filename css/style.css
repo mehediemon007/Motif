@@ -573,6 +573,7 @@ textarea{
 .banner-content .banner-des{
     font-size: 35px;
     line-height: 42px;
+    margin-top: 32px;
 }
 
 .service-banner .banner-des{
@@ -582,11 +583,6 @@ textarea{
 
 .work-banner .banner-des{
     max-width: 950px;
-    margin-top: 24px;
-}
-
-.blog-banner .banner-des{
-    margin-top: 24px;
 }
 
 /* -----------------------------------
@@ -821,6 +817,65 @@ textarea{
     width: 155px;
     height: 50px;
     line-height: 50px;
+}
+
+/* -----------------------------------
+    04. Why Choose MOTOF
+-------------------------------------*/
+
+.mof-strength{
+    margin: 50px 0 150px;
+}
+
+.strength-cat-links{
+    max-width: 60%;
+    justify-content: space-between;
+    margin: 0 auto 55px;
+}
+
+.strength-cat-links .nav-link{
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+    color: var(--white-color);
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 0;
+}
+
+.strength-cat-links .nav-link.active{
+    border-bottom: 3px solid var(--white-color);
+}
+
+.mof-strength .strength-content{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+}
+
+.strength-content .strength-list li{
+    position: relative;
+    font-size: 18px;
+    font-weight: var(--font-weight-bold);
+    line-height: 22px;
+    margin-bottom: 8px;
+    padding-left: 18px;
+}
+
+.strength-list li::before{
+    position: absolute;
+    left: 0;
+    content: "\2022";
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.strength-content p{
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-light);
 }
 
 /* -----------------------------------
