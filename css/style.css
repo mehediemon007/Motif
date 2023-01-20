@@ -535,6 +535,12 @@ textarea{
     padding: 150px 0;
 }
 
+.landing-banner{
+    height: 625px;
+    background: url("../images/works/landing-banner.jpg") no-repeat center top;
+    background-size: cover;
+}
+
 .banner-content{
     padding: 130px 0;
 }
@@ -549,8 +555,21 @@ textarea{
     padding: 0;
 }
 
+.landing-banner .banner-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 70px;
+}
+
 .home-lg-banner .banner-title{
     margin-top: 140px;
+}
+
+.landing-banner .banner-title{
+    font-size: 48px;
+    line-height: 58px;
 }
 
 .banner-content .banner-des{
@@ -975,6 +994,11 @@ textarea{
     12. FAQ
 -------------------------------------*/
 
+.faq-2 .sec-title{
+    font-size: 36px;
+    line-height: 44px;
+}
+
 .faq-list .faq{
     display: block;
     width: 100%;
@@ -982,6 +1006,10 @@ textarea{
     border-bottom: 1px solid #242424;
     padding: 52px 120px 37px;
     overflow: hidden;
+}
+
+.faq-2 .faq-list .faq{
+    padding: 28px 120px 10px;
 }
 
 .faq-list .faq input[type="radio"]{
@@ -1005,6 +1033,11 @@ textarea{
     line-height: 68px;
 }
 
+.faq-2 .faq label::before{
+    font-size: 50px;
+    line-height: 35px;
+}
+
 .faq input[type="radio"]:checked + label::before{
     content: "-";
 }
@@ -1013,6 +1046,11 @@ textarea{
     font-size: 56px;
     line-height: 68px;
     margin-top: 5px;
+}
+
+.faq label h3{
+    font-size: 24px;
+    line-height: 36px;
 }
 
 .faq-content-wpr{
@@ -1027,6 +1065,10 @@ textarea{
     line-height: 31px;
     color: var(--text-light);
     margin: 4px 0 30px;
+}
+
+.faq-2 .faq-content-wpr .content p{
+    font-size: 18px;
 }
 
 .faq-content-wpr .service-list{
@@ -1046,6 +1088,10 @@ textarea{
 
 .faq input[type="radio"]:checked ~ .faq-content-wpr{
     height: 230px;
+}
+
+.faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
+    height: 305px;
 }
 
 /* -----------------------------------
