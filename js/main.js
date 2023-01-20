@@ -63,119 +63,28 @@
 
     });
 
-    // Testimonial Carousel
+    // Blog Slider
 
-    $('.sliderColOne').slick({
-        autoplay: true,
-        infinite: true,
-        slidesPerRow: 1,
-        slidesToShow: 1,
-        arrows: true,
-    });
     
-    $('.reviews-3').slick({
-        // autoplay: true,
-        infinite: true,
-        slidesPerRow: 1,
-        slidesToShow: 1,
-        dots:true,
-        arrows: false,
-        responsive:[
-            {
-                breakpoint: 481,
-                slidesToShow: 1,
-            }
-        ]
-        
-    });
-
-    if($(".portfolio-slides").length){
-
-        $(".portfolio-slides").slick({
-            autoplay:true,
-            infinite: true,
-            slidesToShow:3,
-            slidesToSlide: 1,
-            slidesToScroll: 1,
-            dots:false,
-            arrows:false,
-            responsive: [
-                {
-                  breakpoint: 1200,
-                  settings: {
-                    slidesToShow: 3,
-                  },
-                },
-                {
-                    breakpoint: 992,
-                    settings: {
-                      slidesToShow: 2,
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                      slidesToShow: 1,
-                    },
-                },
-            ],
-        })
-    }
-
-    // Cricle Skill Bar
-
-    var progressPie = $(".radial-progs-pie")
-
-    if (progressPie.length) {
-        progressPie.appear(function () {
-
-            progressPie.asPieProgress({
-                namespace: "pieProgress",
-                classes: {
-                    svg: "radial-progs-pie-svg",
-                    number: "radial-progs-pie-number",
-                    content: "radial-progs-pie-content",
-                },
-                min: 0,
-                max: 100,
-                speed: 25,
-                barsize: '6',
-                barcolor:"#fff",
-                trackcolor: '#737373',
-                easing: 'ease',
-            });
-            progressPie.asPieProgress("start");
-        });
-    }
-
-    // Progressbar
-
-    if($(".single-progressbar").length){
-
-        $('.figma').rProgressbar({
-            percentage: 90,
-            fillBackgroundColor: '#FF8059',
-            backgroundColor: '#F7F1E9'
-        });
-
-        $('.ps').rProgressbar({
-            percentage: 78,
-            fillBackgroundColor: '#FF8059',
-            backgroundColor: '#F7F1E9'
-        });
-
-        $('.xd').rProgressbar({
-            percentage: 85,
-            fillBackgroundColor: '#FF8059',
-            backgroundColor: '#F7F1E9'
-        });
-
-        $('.inv').rProgressbar({
-            percentage: 55,
-            fillBackgroundColor: '#FF8059',
-            backgroundColor: '#F7F1E9'
-        });
-    }
+    $(".blog-slider").owlCarousel({
+        items:2,
+        loop:true,
+        autoplay:false,
+        slideBy: 2,
+        nav:false,
+        dots:false,
+        margin:50,
+        responsive:{
+            // 0:{
+            //     items: 2,
+            //     center:false
+            // },
+            // 575:{
+            //     items: 5,
+            //     center:true,
+            // },
+        }
+    })
 
     // Counter
 

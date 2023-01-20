@@ -523,6 +523,12 @@ textarea{
     border-color: var(--white-color);
 }
 
+.sec-title{
+    font-size: 25px;
+    font-weight: var(--font-weight-bold);
+    line-height: 30px;
+}
+
 /* -----------------------------------
     03. Header and Toolbar
 -------------------------------------*/
@@ -793,6 +799,17 @@ textarea{
     margin: 16px 0 28px;
 }
 
+.blog-slider{
+    margin-top: 60px;
+}
+
+.blog-slider .single-blog .blog-title{
+    font-size: 26px;
+    line-height: 31px;
+    margin: 32px 0;
+    padding-right: 50px;
+}
+
 .single-blog .blog-meta-data{
     display: flex;
     flex-wrap: wrap;
@@ -864,7 +881,7 @@ textarea{
     padding-left: 18px;
 }
 
-.strength-list li::before{
+.strength-list li:first-child:before{
     position: absolute;
     left: 0;
     content: "\2022";
@@ -876,6 +893,90 @@ textarea{
     font-size: 18px;
     line-height: 22px;
     color: var(--text-light);
+}
+
+/* -----------------------------------
+    12. FAQ
+-------------------------------------*/
+
+.mof-faq .sec-title{
+    font-size: 16px;
+    font-weight: var(--font-weight-bolder);
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.faq-list .faq{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #242424;
+    padding: 52px 120px 37px;
+    overflow: hidden;
+}
+
+.faq-list .faq input[type="radio"]{
+    display: none;
+}
+
+.faq-list .faq label{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.45s;
+}
+
+.faq label::before{
+    position: absolute;
+    content: "+";
+    left: -80px;
+    font-size: 56px;
+    font-weight: var(--font-weight-bold);
+    line-height: 68px;
+}
+
+.faq input[type="radio"]:checked + label::before{
+    content: "-";
+}
+
+.faq label h2{
+    font-size: 56px;
+    line-height: 68px;
+    margin-top: 5px;
+}
+
+.faq-content-wpr{
+    width: 100%;
+    overflow-y: hidden;
+    height: 0;
+    transition: 0.4s;
+}
+
+.faq-content-wpr .content p{
+    font-size: 22px;
+    line-height: 31px;
+    color: var(--text-light);
+    margin: 4px 0 30px;
+}
+
+.faq-content-wpr .service-list{
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 90px;
+}
+
+.faq-content-wpr .service-list li{
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    line-height: 19px;
+    color: var(--text-light);
+    margin-bottom: 16px;
+}
+
+.faq input[type="radio"]:checked ~ .faq-content-wpr{
+    height: 230px;
 }
 
 /* -----------------------------------
