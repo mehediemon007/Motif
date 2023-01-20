@@ -80,6 +80,8 @@
         }
     })
 
+    // Creer Slider
+
     $(".career-slider").owlCarousel({
         items: 1,
         loop:false,
@@ -94,8 +96,6 @@
 
         }
     })
-
-    // Creer Slider
 
     function counter(event) {
         var element   = event.target;         // DOM element, in this example .owl-carousel
@@ -129,6 +129,15 @@
             // },
         }
     })
+
+    // Testimonial Slider
+
+    $('.testimonial-slider').owlCarousel({
+        items:1,
+        nav: false,
+        dots: true,
+        dotsData: true,
+    });
 
     // Counter
 

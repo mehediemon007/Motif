@@ -991,6 +991,72 @@ textarea{
 }
 
 /* -----------------------------------
+    12. Testimonial
+-------------------------------------*/
+
+.testimonial-slider .owl-dots{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 90px;
+}
+
+.testimonial-slider .owl-dot{
+    width: 100%;
+}
+
+.testimonial-slider .owl-dots button{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--white-color);
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #282828;;
+    outline: none;
+    padding-bottom: 32px;
+}
+
+.testimonial-slider .owl-dot.active button{
+    font-size: 16px;
+    border-bottom-color: var(--white-color);
+}
+
+.single-review .review-image,
+.single-review .review-content{
+    padding: 0 40px;
+}
+
+.single-review .review-text{
+    position: relative;
+    font-size: 22px;
+    line-height: 35px;
+    color: var(--secondary-color);
+    background-color: var(--white-color);
+    padding: 90px 60px;
+    margin-bottom: 45px;
+}
+
+.single-review .review-text::before {
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    left: 32px;
+    bottom: -31px;
+    border-top: 40px solid var(--white-color);
+    border-left: 50px solid var(--white-color);
+    border-bottom: 30px solid transparent;
+    z-index: -1;
+}
+
+.review-client{
+    font-weight: var(--font-weight-semi-bold);
+}
+
+/* -----------------------------------
     12. FAQ
 -------------------------------------*/
 
