@@ -314,89 +314,45 @@ input:-webkit-autofill {
 /* -----------------------------------
     02. Global Design
 -------------------------------------*/
-.slick-arrow {
-    overflow: hidden;
-    cursor: pointer;
-    outline: none !important;
+#counter{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 0;
-    width: 42px;
-    height: 42px;
-    border: 0;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    transition: var(--transition);
-    opacity: 0;
-    z-index: 10;
+    right: 34%;
+    bottom: 25%;
+    font-size: 15px;
+    font-weight: var(--font-weight-normal);
+    line-height: 18px;
+    letter-spacing: 0.833333px;
 }
 
-.slick-arrow:hover {
-    background-color: var(--secondary-color);
-}
-
-.slick-arrow:before {
-    font-size: 20px;
-    font-family: "Font Awesome 6 Free";
-    font-weight: var(--font-weight-semi-bold);
-    line-height: 40px;
+.owl-nav{
     display: inline-block;
+    position: relative;
+    left: calc(100% - 46.9%);
+    bottom: 100px;
 }
 
-.slick-prev {
-    left: -8%;
+.owl-nav button{
+    width: 114px;
+    height: 74px;
+    font-size: 15px !important;
+    font-weight: var(--font-weight-normal) !important;
+    line-height: 18px;
+    letter-spacing: 0.833333px;
+    text-transform: uppercase;
+    color: var(--secondary-color) !important;
+    background-color: var(--white-color) !important;
 }
 
-.slick-prev:before {
-    transition: 0.3s;
-    content: "\f177";
+.owl-nav button.disabled{
+   opacity: .5;
 }
 
-.slick-next {
-    right: -8%;
+.project-slider .owl-nav{
+    left: calc(100% - 43.8%);
 }
 
-.slick-next:before {
-    content: "\f178";
-}
-
-.slick-prev:hover:before {
-    animation: toLeftFromRight 0.4s linear forwards;
-}
-
-.slick-next:hover:before {
-    animation: toRightFromLeft 0.4s linear forwards;
-}
-
-.slick-dots {
-    text-align: center;
-}
-
-.slick-dots > li {
-    display: inline-block;
-    margin: 5px;
-}
-
-.slick-dots > li button {
-    cursor: pointer;
-    outline: none !important;
-    font-size: 0;
-    width: 14px;
-    height: 14px;
-    border: 1px solid var(--primary-color);
-    border-radius: 50%;
-    background: transparent;
-    transition: var(--transition);
-}
-
-.slick-dots > .slick-active button {
-    background-color: var(--primary-color);
-}
-
-.slick-slider:hover .slick-arrow {
-    opacity: 1;
+.project-slider + #counter{
+    right: 31%;
 }
 
 form label{
@@ -527,6 +483,13 @@ textarea{
     font-size: 25px;
     font-weight: var(--font-weight-bold);
     line-height: 30px;
+}
+
+.sec-sub-title{
+    font-size: 16px;
+    font-weight: var(--font-weight-bolder);
+    line-height: 19px;
+    text-transform: uppercase;
 }
 
 /* -----------------------------------
@@ -797,6 +760,105 @@ textarea{
 }
 
 /* -----------------------------------
+    04. Feature Projects
+-------------------------------------*/
+
+.mof-feature-projects{
+    padding: 120px 0;
+}
+
+.mof-feature-projects .project-slider{
+    margin-top: 70px;
+}
+
+.project-slider .owl-stage-outer{
+    overflow: visible;
+}
+
+.project-slider .single-project{
+    position: relative;
+    max-width: 65%;
+}
+
+.project-slider .project-content{
+    position: absolute;
+    top: 62px;
+    left: 100%;
+    width: max-content;
+    display: none;
+    padding-left: 50px;
+}
+
+.project-slider .owl-item.center .project-content{
+    display: block;
+}
+
+.project-slider .project-name{
+    left: -50%;
+}
+
+/* .project-slider .single-project{
+    display: flex;
+}
+
+.project-slider .project-image{
+    flex: 1 0 auto;
+}
+
+.project-slider .project-image img{
+    height: 707px;
+} */
+
+/* -----------------------------------
+    04. Landing Page
+-------------------------------------*/
+
+.career-slider{
+    margin-top: 70px;
+}
+
+.career-slider .slide-image img{
+    width: auto;
+}
+
+.career-slider .slide-content{
+    margin-top: 60px;
+}
+
+.career-slider .slide-content .company-name{
+    position: relative;
+    left: -35%;
+    margin-bottom: 32px;
+}
+
+.career-slider .slide-content p{
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-light);
+    margin-bottom: 32px;
+}
+
+.career-slider .company-profile li{
+    position: relative;
+    font-size: 18px;
+    font-weight: var(--font-weight-semi-bold);
+    line-height: 22px;
+    padding-left: 20px;
+}
+
+.company-profile li::before {
+    position: absolute;
+    content: "\2022";
+    top: 0;
+    left: 0;
+}
+
+.career-slider .slide-content .btn{
+    margin-top: 28px;
+    letter-spacing: 2px;
+}
+
+/* -----------------------------------
     04. Blogs
 -------------------------------------*/
 
@@ -912,13 +974,6 @@ textarea{
 /* -----------------------------------
     12. FAQ
 -------------------------------------*/
-
-.mof-faq .sec-title{
-    font-size: 16px;
-    font-weight: var(--font-weight-bolder);
-    line-height: 19px;
-    text-transform: uppercase;
-}
 
 .faq-list .faq{
     display: block;

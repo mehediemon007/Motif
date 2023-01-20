@@ -63,14 +63,58 @@
 
     });
 
-    // Blog Slider
+    // Project Slider
 
+    $(".project-slider").owlCarousel({
+        items: 1,
+        loop:false,
+        autoplay:false,
+        nav:true,
+        navText: ["Pre","Next"],
+        dots:false,
+        center:true,
+        onInitialized  : counter, //When the plugin has initialized.
+        onTranslated : counter,
+        responsive:{
+
+        }
+    })
+
+    $(".career-slider").owlCarousel({
+        items: 1,
+        loop:false,
+        autoplay:false,
+        nav:true,
+        navText: ["Pre","Next"],
+        dots:false,
+        center:true,
+        onInitialized  : counter, //When the plugin has initialized.
+        onTranslated : counter,
+        responsive:{
+
+        }
+    })
+
+    // Creer Slider
+
+    function counter(event) {
+        var element   = event.target;         // DOM element, in this example .owl-carousel
+         var items     = event.item.count;     // Number of items
+         var item      = event.item.index + 1;     // Position of the current item
+       
+       // it loop is true then reset counter from 1
+       if(item > items) {
+         item = item - items
+       }
+       $('#counter').html(item +"/" +items)
+     }
+
+    // Blog Slider
     
     $(".blog-slider").owlCarousel({
         items:2,
         loop:true,
         autoplay:false,
-        slideBy: 2,
         nav:false,
         dots:false,
         margin:50,
