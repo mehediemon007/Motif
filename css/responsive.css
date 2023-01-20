@@ -1,14 +1,21 @@
 /* Min Width 1400px */
 @media only screen and (min-width:1400px){
 
-    
+    .container-right {
+        padding-left: calc((100% - 1320px) / 2 + 15px) !important;
+        padding-right: 0;
+    }
 
 }
 
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
 
-    
+    .container-right {
+        padding-left: calc((100% - 1140px) / 2 + 15px);
+        padding-right: 0;
+    }
+
 }
 
 
@@ -23,7 +30,10 @@
 
 @media only screen and (max-width:1199px){
 
-    
+    .container-right{
+        padding-left: calc((100% - 960px) / 2 + 15px);
+        padding-right: 0;
+    }
 
 }
 
@@ -31,14 +41,30 @@
 
 @media only screen and (max-width:991px){
 
-    
+    .container-right{
+        padding-left: calc((100% - 720px) / 2 + 15px);
+        padding-right: 0;
+    }
 
 }
 
 /* Max Width 767px */
 @media only screen and (max-width:767px){
 
+    .container-right{
+        padding-left: calc((100% - 540px) / 2 + 15px);
+        padding-right: 0;
+    }
     
+}
+
+/* Max Width 575px */
+@media only screen and (max-width:575px){
+
+    .container-right{
+        padding-left: var(--bs-gutter-x,.75rem);
+        padding-right: 0;
+    }
     
 }
 

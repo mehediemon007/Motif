@@ -67,7 +67,7 @@
 
     $(".project-slider").owlCarousel({
         items: 1,
-        loop:false,
+        loop:true,
         autoplay:false,
         nav:true,
         navText: ["Pre","Next"],
@@ -84,7 +84,7 @@
 
     $(".career-slider").owlCarousel({
         items: 1,
-        loop:false,
+        loop:true,
         autoplay:false,
         nav:true,
         navText: ["Pre","Next"],
@@ -137,6 +137,14 @@
         nav: false,
         dots: true,
         dotsData: true,
+    });
+
+    $('.testi-slider-3').owlCarousel({
+        items:1.5,
+        nav: true,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
+        dots: false,
+        margin: 32
     });
 
     // Counter

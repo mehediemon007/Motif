@@ -331,6 +331,10 @@ input:-webkit-autofill {
     bottom: 100px;
 }
 
+.testi-slider-3 .owl-nav{
+    left: 50%;
+}
+
 .owl-nav button{
     width: 114px;
     height: 74px;
@@ -343,8 +347,21 @@ input:-webkit-autofill {
     background-color: var(--white-color) !important;
 }
 
-.owl-nav button.disabled{
+.testi-slider-3 .owl-nav button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px !important;
+}
+
+.owl-nav button.owl-prev{
    opacity: .5;
+}
+
+.testi-slider-3 .owl-nav button.owl-prev{
+    color: var(--white-color) !important;
+    background-color: #2F2F2F !important;
+    opacity: 1;
+    margin-right: 4px;
 }
 
 .project-slider .owl-nav{
@@ -1015,7 +1032,7 @@ textarea{
     text-transform: uppercase;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #282828;;
+    border-bottom: 2px solid #282828;
     outline: none;
     padding-bottom: 32px;
 }
@@ -1025,9 +1042,14 @@ textarea{
     border-bottom-color: var(--white-color);
 }
 
-.single-review .review-image,
-.single-review .review-content{
+.testimonial-1 .single-review .review-image,
+.testimonial-1 .single-review .review-content{
     padding: 0 40px;
+}
+
+.testimonial-2 .review-content{
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .single-review .review-text{
@@ -1038,6 +1060,20 @@ textarea{
     background-color: var(--white-color);
     padding: 90px 60px;
     margin-bottom: 45px;
+}
+
+.testimonial-2 .review-text{
+    padding: 70px 100px;
+}
+
+.testimonial-3 .review-text{
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    color: var(--white-color);
+    line-height: 44px;
+    background-color: #2F2F2F;
+    padding: 50px;
+    margin-bottom: 0;
 }
 
 .single-review .review-text::before {
@@ -1052,8 +1088,24 @@ textarea{
     z-index: -1;
 }
 
+.testimonial-3 .review-text::before{
+    left: 60px;
+    border-color: #2F2F2F;
+    border-bottom-color: transparent;
+}
+
+.single-review .review-text img{
+    width: 32px;
+    margin-bottom: 40px;
+}
+
 .review-client{
     font-weight: var(--font-weight-semi-bold);
+}
+
+.testimonial-3 .review-client{
+    padding-left: 60px;
+    margin-top: 120px;
 }
 
 /* -----------------------------------
