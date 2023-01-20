@@ -563,6 +563,11 @@ textarea{
     04. Banner
 -------------------------------------*/
 
+.home-lg-banner{
+    width: 100%;
+    background: linear-gradient(153.53deg, #2A2A2A 0.64%, #000000 83.38%);
+}
+
 .about-2 .about-banner{
     padding: 150px 0;
 }
@@ -571,9 +576,18 @@ textarea{
     padding: 130px 0;
 }
 
+.home-lg-banner .banner-content{
+    text-align: center;
+    padding: 145px 0 245px;
+}
+
 .about-2 .banner-content{
     margin-bottom: 100px;
     padding: 0;
+}
+
+.home-lg-banner .banner-title{
+    margin-top: 140px;
 }
 
 .banner-content .banner-des{
@@ -1039,6 +1053,39 @@ textarea{
     width: 326px;
     height: 53px;
     line-height: 53px;
+}
+
+/* -----------------------------------
+    04. Project Catelog
+-------------------------------------*/
+
+.catelog-wpr{
+    background: linear-gradient(103.03deg, #202020 36.31%, #000000 78.59%);
+    border: 1px solid #2E2E2E;
+    padding: 0 40px;
+}
+
+.catelog-content{
+    max-width: 550px;
+}
+
+.catelog-content h3{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.catelog-content p{
+    font-size: 18px;
+    font-weight: var(--font-weight-medium);
+    line-height: 22px;
+    padding-right: 40px;
+    margin: 24px 0 32px;
+}
+
+.catelog-content .btn{
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 2px;
 }
 
 
