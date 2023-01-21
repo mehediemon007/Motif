@@ -66,13 +66,14 @@
     // Project Slider
 
     $(".project-slider").owlCarousel({
-        items: 1,
+        items: 1.1,
         loop:true,
         autoplay:false,
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
-        center:true,
+        // center:true,
+        margin:10,
         onInitialized  : counter, //When the plugin has initialized.
         onTranslated : counter,
         responsive:{

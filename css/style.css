@@ -365,7 +365,7 @@ input:-webkit-autofill {
 }
 
 .project-slider .owl-nav{
-    left: calc(100% - 43.8%);
+    left: 693px;
 }
 
 .project-slider + #counter{
@@ -519,6 +519,28 @@ textarea{
     align-items: center;
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.120348);
     padding: 0 24px;
+}
+
+.header-2 .mof-header-container{
+    background-color: var(--white-color);
+    padding: 32px 40px;
+}
+
+.header-2 .logo{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+}
+
+.header-2 .close-btn{
+    font-size: 18px;
+    font-weight: var(--font-weight-bold);
+    line-height: 22px;
+    color: var(--secondary-color);
+    background-color: var(--white-color);
+    border: none;
+    outline: none;
 }
 
 .mof-main-nav{
@@ -807,21 +829,28 @@ textarea{
     margin-top: 70px;
 }
 
-.project-slider .owl-stage-outer{
+/* .project-slider .owl-stage-outer{
     overflow: visible;
-}
+} */
 
 .project-slider .single-project{
+    /* position: relative; */
+    display: flex;
+    /* max-width: 65%; */
+}
+
+.project-slider .project-image{
     position: relative;
-    max-width: 65%;
 }
 
 .project-slider .project-content{
-    position: absolute;
+    /* position: absolute;
     top: 62px;
     left: 100%;
     width: max-content;
-    display: none;
+    display: none; */
+    width: 400px;
+    margin-top: 180px;
     padding-left: 50px;
 }
 
@@ -830,7 +859,11 @@ textarea{
 }
 
 .project-slider .project-name{
-    left: -50%;
+    position: absolute;
+    white-space: nowrap;
+    left: auto;
+    right: -320px;
+    top: 62px;
 }
 
 /* .project-slider .single-project{
@@ -1242,6 +1275,7 @@ textarea{
 .mof-project-idea{
     background-color: var(--primary-color);
     padding: 90px 0;
+    overflow: hidden;
 }
 
 .mof-project-idea .project-contact{
@@ -1307,6 +1341,128 @@ textarea{
     letter-spacing: 2px;
 }
 
+/* -----------------------------------
+    04. Company Profile
+-------------------------------------*/
+
+.mof-about-2{
+    padding: 70px 0;
+}
+
+.company-services *{
+    color: var(--secondary-color);
+}
+
+.company-services h6{
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.company-services .service-list li{
+    position: relative;
+    font-size: 18px;
+    font-weight: var(--font-weight-normal);
+    line-height: 46px;
+    padding-left: 24px;
+}
+
+.company-services .service-list li::before{
+    position: absolute;
+    content: "+";
+    left: 0;
+}
+
+.about-company *{
+    color: var(--secondary-color);
+}
+
+.about-company h3{
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 70px;
+}
+
+.about-company .achivement-counter .single-counter{
+    width: 100%;
+    margin: 0;
+}
+
+.challange-content{
+    margin-bottom: 70px;
+}
+
+.about-company .single-counter p{
+    padding-right: 60px;
+}
+
+.challange-content h4{
+    font-size: 35px;
+    font-weight: var(--font-weight-semi-bold);
+    line-height: 42px;
+    color: var(--secondary-color);
+}
+.challange-content p{
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--secondary-color);
+    margin-top: 24px;
+}
+
+.mof-company-website{
+    background-color: #F6F6F6;
+    padding-top: 100px;
+}
+
+.website-images{
+    position: relative;
+}
+
+.website-images .website-image{
+    position: relative;
+    z-index: 100;
+}
+
+.website-images .res-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.founder-content{
+    padding: 100px 200px;
+}
+
+.founder-content h3{
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--secondary-color);
+}
+
+.founder-content .founder-name{
+    font-size: 17px;
+    font-weight: var(--font-weight-bold);
+    line-height: 21px;
+    color: var(--secondary-color);
+    margin-top: 40px;
+}
+
+.highlited-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.highlited-images img{
+    width: 100%;
+}
+
+.mof-cmp-highlights .challange-content{
+    padding: 100px 250px;
+    margin-bottom: 0;
+}
 
 /* -----------------------------------
     04. Footer
