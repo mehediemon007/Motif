@@ -1246,6 +1246,76 @@ textarea{
 }
 
 /* -----------------------------------
+    04. Marketing Process
+-------------------------------------*/
+
+.mof-marketing{
+    position: relative;
+    padding: 330px 0 150px;
+    z-index: 1;
+}
+
+.mof-marketing::before{
+    position: absolute;
+    top: 0;
+    height: 0;
+    content: "";
+    width: 100%;
+    height: 70%;
+    background: url("../images/services/marketing.png") no-repeat left top;
+    z-index: -1;
+}
+
+.marketing-content .sec-title{
+    max-width: 80%;
+    font-size: 85px;
+    line-height: 80px;
+}
+
+.marketing-content .sec-des{
+    font-size: 25px;
+    line-height: 30px;
+    margin: 50px 0 70px;
+}
+
+.marketing-steps{
+    display: flex;
+    gap: 1px;
+}
+
+.marketing-step{
+    position: relative;
+    flex: 1 1 0;
+    background-color: var(--white-color);
+    padding: 40px 32px;
+    overflow: hidden;
+}
+
+.marketing-step:last-child::after{
+    position: absolute;
+    content: "";
+    bottom: -41px;
+    right: -24px;
+    width: 15%;
+    height: 30%;
+    transform: rotate(53deg);
+    background-color: var(--secondary-color);
+
+}
+
+.marketing-step h6{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--secondary-color);
+}
+
+.marketing-step p{
+    line-height: 25px;
+    color: var(--secondary-color);
+    margin-top: 24px;
+}
+
+/* -----------------------------------
     04. Partners
 -------------------------------------*/
 
