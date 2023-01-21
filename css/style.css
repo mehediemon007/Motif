@@ -513,7 +513,21 @@ textarea{
     03. Header and Toolbar
 -------------------------------------*/
 
+.mof-header{
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary-color);
+    z-index: 10;
+}
+
+.mof-header.sticky{
+    position: fixed;
+}
+
 .mof-header-container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1223,7 +1237,7 @@ textarea{
 }
 
 .faq-content-wpr .service-list{
-    max-width: 50%;
+    max-width: 60%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 90px;
@@ -1238,7 +1252,7 @@ textarea{
 }
 
 .faq input[type="radio"]:checked ~ .faq-content-wpr{
-    height: 230px;
+    height: 260px;
 }
 
 .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
@@ -1367,7 +1381,7 @@ textarea{
 }
 
 .project-contact h6{
-    max-width: 35%;
+    max-width: 40%;
     text-align: center;
     margin: 32px auto 38px;
 }

@@ -6,6 +6,18 @@
         padding-right: 0;
     }
 
+    .faq-content-wpr .service-list{
+        max-width: 50%;
+    }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 230px;
+    }
+
+    .project-contact h6{
+        max-width: 35%;
+    }
+
 }
 
 /* Min Width 1200px */
@@ -23,7 +35,10 @@
 
 @media only screen and (min-width:992px){
 
-    
+    .mof-nav-wpr{
+        display: block !important;
+    }
+
 }
 
 /* Max Width 1199px */
@@ -44,6 +59,56 @@
     .container-right{
         padding-left: calc((100% - 720px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    /* Mobile Nav */
+
+    .mof-header-container{
+        padding: 16px 24px;
+    }
+
+    .nav-toggle{
+        display: inline-block;
+        width: 40px;
+        font-size: 35px;
+        text-align: center;
+        margin-right: 32px;
+        cursor: pointer;
+    }
+
+    .mof-nav-wpr{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        width: 100%;
+        background-color: var(--secondary-color);
+        padding: 0 32px;
+        z-index: 10;
+    }
+
+    .mof-main-nav{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .mof-main-nav .nav-item{
+        width: 100%;
+    }
+
+    .mof-main-nav .nav-item a{
+        border-bottom: 1px solid rgb(255 255 255 / 12%);
+        padding: 8px 0;
+    }
+
+    .mof-main-nav .nav-item:last-child a{
+        border-bottom: 0;
+    }
+
+    .mof-main-nav .nav-item a.active{
+        border-bottom-width: 2px;
     }
 
 }
@@ -70,15 +135,24 @@
 
 /* Max Width 480px */
 @media only screen and (max-width:480px){
+    .mof-header-container{
+        padding: 16px;
+    }
 
-    
 }
 
 /* Max Width 416px */
 
 @media only screen and (max-width:416px){
 
-    
+     .nav-toggle{
+        width: 30px;
+        margin-right: 16px;
+    }
+
+    .mof-header-container .btn{
+        padding: 0 10px;
+    }
 
 }
 

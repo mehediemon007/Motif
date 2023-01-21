@@ -157,7 +157,14 @@
           time: 1000
         });
         
-    } 
+    }
+    
+    // Mobile Menu Toggle 
+
+    $(".nav-toggle").on("click",function(){
+        $("i",this).toggleClass("fa-sharp fa-solid fa-bars fa-solid fa-xmark")
+        $(".mof-nav-wpr").slideToggle();
+    })
 
     new WOW().init();
 
@@ -205,9 +212,9 @@ if(portfolioFilter != null){
 
     // Sticky Nav
 
-    const headerContainer = document.querySelector(".vea-header-wpr");
+    const headerContainer = document.querySelector(".mof-header");
     window.onscroll = ()=>{
-        this.scrollY > 20 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+        this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
     }
 
 })()
