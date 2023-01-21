@@ -145,13 +145,21 @@
 
 @media only screen and (max-width:416px){
 
-     .nav-toggle{
+    .nav-toggle{
         width: 30px;
         margin-right: 16px;
     }
 
     .mof-header-container .btn{
         padding: 0 10px;
+    }
+
+    .header-2 .mof-header-container{
+        padding: 16px;
+    }
+
+    .header-2 .logo{
+        font-size: 35px;
     }
 
 }
