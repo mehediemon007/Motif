@@ -18,6 +18,10 @@
         max-width: 35%;
     }
 
+    .project-contact::before{
+        height: 100%;
+    }
+
 }
 
 /* Min Width 1200px */
@@ -26,6 +30,10 @@
     .container-right {
         padding-left: calc((100% - 1140px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    .about-company .single-counter p{
+        padding-right: 60px;
     }
 
 }
@@ -50,6 +58,27 @@
         padding-right: 0;
     }
 
+    .faq-content-wpr .service-list{
+        max-width: 80%;
+    }
+
+    .project-contact h6{
+        max-width: 50%;
+    }
+
+    .project-contact::before{
+        height: 70%;
+    }
+
+    .blog-slider .single-blog .blog-title{
+        padding-right: 0;
+    }
+
+    .founder-content,
+    .mof-cmp-highlights .challange-content{
+        padding: 100px;
+    }
+
 }
 
 /* Max Width 991px */
@@ -61,7 +90,7 @@
         padding-right: 0;
     }
 
-    /* Mobile Nav */
+    /* Mobile Nav Start */
 
     .mof-header-container{
         padding: 16px 24px;
@@ -111,6 +140,26 @@
         border-bottom-width: 2px;
     }
 
+    /* Mobile Nav End */
+
+    .founder-content, 
+    .mof-cmp-highlights .challange-content{
+        padding: 100px 0;
+    }
+
+    .project-contact h6{
+        max-width: 70%;
+    }
+
+    .project-contact::before{
+        height: 56%;
+    }
+
+    .company-services .service-list{
+        column-count: 2;
+        margin-bottom: 50px;
+    }
+
 }
 
 /* Max Width 767px */
@@ -119,6 +168,15 @@
     .container-right{
         padding-left: calc((100% - 540px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    .project-contact h6{
+        max-width: 85%;
+    }
+
+    .project-contact::before{
+        height: 100px;
+        background-position: center;
     }
     
 }
@@ -139,6 +197,43 @@
         padding: 16px;
     }
 
+    .header-2 .mof-header-container{
+        padding: 16px;
+    }
+
+    .project-contact h2{
+        font-size: 32px;
+    }
+
+    .project-contact h6{
+        max-width: 79%;
+        font-weight: var(--font-weight-normal);
+    }
+
+    .project-contact::before{
+        height: 80px;
+        bottom: -34%;
+    }
+
+    .company-services .service-list{
+        column-count: 1;
+    }
+
+    .about-company h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .founder-content h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .single-counter h2 {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
 }
 
 /* Max Width 416px */
@@ -154,12 +249,16 @@
         padding: 0 10px;
     }
 
-    .header-2 .mof-header-container{
-        padding: 16px;
-    }
-
     .header-2 .logo{
         font-size: 35px;
+    }
+
+    .project-contact h6{
+        max-width: 90%;
+    }
+
+    .project-contact::before{
+        height: 70px;
     }
 
 }

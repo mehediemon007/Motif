@@ -1374,7 +1374,7 @@ textarea{
     left: 0;
     bottom: -40%;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background: url("../images/works/letstalk.png") no-repeat left;
     background-size: cover;
     z-index: -1;
@@ -1476,10 +1476,6 @@ textarea{
 
 .challange-content{
     margin-bottom: 70px;
-}
-
-.about-company .single-counter p{
-    padding-right: 60px;
 }
 
 .challange-content h4{

@@ -166,7 +166,7 @@
         $(".mof-nav-wpr").slideToggle();
     })
 
-    new WOW().init();
+    // new WOW().init();
 
 })(jQuery)
 
