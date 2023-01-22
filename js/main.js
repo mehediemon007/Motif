@@ -142,10 +142,23 @@
 
     $('.testi-slider-3').owlCarousel({
         items:1.5,
+        loop:true,
         nav: true,
         navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
         dots: false,
-        margin: 32
+        margin: 32,
+        responsive:{
+            0:{
+                items:1.15,
+                margin: 16
+            },
+            400:{
+                items:1.5
+            },
+            768:{
+                margin: 32
+            }
+        }
     });
 
     // Counter

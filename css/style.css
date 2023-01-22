@@ -589,7 +589,7 @@ textarea{
 }
 
 .about-2 .about-banner{
-    padding: 150px 0;
+    padding: 150px 0 130px;
 }
 
 .landing-banner{
@@ -695,8 +695,7 @@ textarea{
 }
 
 .achivement-counter .single-counter{
-    width: 70%;
-    margin: 40px auto 0;
+    margin-bottom: 32px;
 }
 
 .single-counter h2{
@@ -1126,6 +1125,14 @@ textarea{
 
 .testimonial-2 .review-text{
     padding: 70px 100px;
+}
+
+.testimonial-3 .sec-title{
+    font-size: 16px;
+    font-weight: var(--font-weight-bolder);
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .testimonial-3 .review-text{
