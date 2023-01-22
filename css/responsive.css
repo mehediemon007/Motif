@@ -41,7 +41,9 @@
         padding-right: 60px;
     }
 
-    .mof-about-us .single-content{
+    .mof-about-us .single-content,
+    .mof-service-2,
+    .mof-strength{
         margin-bottom: 150px;
     }
 
@@ -71,6 +73,11 @@
 
     .about-content .about-image{
         display: none;
+    }
+
+    .service-cat-wpr{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     }
 
 }
@@ -127,6 +134,11 @@
 
     .single-review .review-text img{
         margin-bottom: 16px;
+    }
+
+    .strength-cat-links,
+    .mof-strength .strength-content{
+        max-width: 80%;
     }
 
 }
@@ -201,7 +213,14 @@
 
     /* Mobile Nav End */
 
-    .mof-about-us .single-content{
+    .strength-cat-links,
+    .mof-strength .strength-content{
+        max-width: 100%;
+    }
+
+    .mof-about-us .single-content,
+    .mof-service-2,
+    .mof-strength{
         margin-bottom: 90px;
     }
 
@@ -332,6 +351,10 @@
         min-width: max-content;
         padding-bottom: 24px;
     }
+
+    .mof-strength .strength-content{
+        align-items: center;
+    }
     
 }
 
@@ -353,7 +376,7 @@
     }
 
     .mof-about-us .single-content{
-        padding: 0 32px;
+        padding: 0 16px;
     }
 
     .services-wpr .service-list{
@@ -369,6 +392,15 @@
         position: absolute;
         content: "\2022";
         left: 0;
+    }
+
+    .mof-service-2{
+        padding: 0 16px;
+    }
+
+    .service-category .service-list li{
+        font-size: 16px;
+        line-height: 34px;
     }
 
     .mof-footer .container{
@@ -534,7 +566,7 @@
     }
 
     .mof-blogs{
-        padding: 0 30px;
+        padding: 0 16px;
     }
 
     .testimonial-1{
@@ -549,6 +581,27 @@
         font-size: 18px;
         font-weight: var(--font-weight-semi-bold);
         line-height: 27px;
+    }
+
+    .mof-strength .strength-content{
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+    }
+
+    .strength-cat-links{
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 24px;
+        box-shadow: 0px 1px 0px rgb(255 255 255 / 12%);
+        margin-bottom: 45px;
+    }
+
+    .strength-cat-links .nav-link{
+        min-width: max-content;
+    }
+
+    .mof-strength .strength-content p{
+        padding-left: 16px;
     }
 
     .partners-wpr{
@@ -597,6 +650,15 @@
         line-height: 29px;
     }
 
+    .service-cat-wpr{
+        grid-gap: 40px 16px;
+    }
+
+    .service-category .service-list li{
+        font-size: 14px;
+        line-height: 30px;
+    }
+
     .footer-top .contact-info a:last-child{
         margin-right: 0;
     }
@@ -615,7 +677,6 @@
 /* Max Width 380px */
 
 @media only screen and (max-width:380px){
-    
     
 }
 
