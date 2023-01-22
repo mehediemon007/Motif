@@ -120,14 +120,14 @@
         dots:false,
         margin:50,
         responsive:{
-            // 0:{
-            //     items: 2,
-            //     center:false
-            // },
-            // 575:{
-            //     items: 5,
-            //     center:true,
-            // },
+            0:{
+                items: 1.15,
+                margin:24
+            },
+            575:{
+                items: 1.25,
+                margin:50
+            },
         }
     })
 

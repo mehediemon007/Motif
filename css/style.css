@@ -410,7 +410,7 @@ textarea{
 }
 
 .sec-spacer-top {
-    padding-top: 125px;
+    padding-top: 150px;
 }
 
 .sec-spacer-top-85 {
@@ -950,6 +950,10 @@ textarea{
     04. Blogs
 -------------------------------------*/
 
+.mof-blogs-wpr{
+    margin-bottom: 150px;
+}
+
 .mof-blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -1425,7 +1429,6 @@ textarea{
 .catelog-wpr{
     background: linear-gradient(103.03deg, #202020 36.31%, #000000 78.59%);
     border: 1px solid #2E2E2E;
-    padding: 0 40px;
 }
 
 .catelog-content{

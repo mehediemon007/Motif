@@ -37,6 +37,10 @@
         padding-right: 0;
     }
 
+    .catelog-wpr{
+        padding: 0 40px;
+    }
+
     .about-company .single-counter p{
         padding-right: 60px;
     }
@@ -65,6 +69,10 @@
 
     .mof-nav-wpr{
         display: block !important;
+    }
+
+    .catelog-content .catelog-image{
+        display: none;
     }
 
     .single-project.mt-top{
@@ -219,6 +227,31 @@
 
     /* Mobile Nav End */
 
+    .mof-marketing{
+        padding: 150px 0;
+    }
+
+    .marketing-content .sec-title {
+        max-width: 100%;
+        font-size: 65px;
+        line-height: 72px;
+    }
+
+    .marketing-steps{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .marketing-step:last-child::after{
+        transform: rotate(149deg);
+    }
+
+    .catelog-content{
+        max-width: 100%;
+        text-align: center;
+        padding: 32px 24px;
+    }
+
     .strength-cat-links,
     .mof-strength .strength-content{
         max-width: 100%;
@@ -322,6 +355,15 @@
     .banner-content .banner-des{
         font-size: 28px;
         line-height: 36px;
+    }
+
+    .marketing-content .sec-title {
+        font-size: 55px;
+        line-height: 66px;
+    }
+
+    .blog-slider .single-blog .blog-title{
+        font-size: 24px;
     }
 
     .project-contact h6{
@@ -433,6 +475,10 @@
         line-height: 34px;
     }
 
+    .mof-blogs-wpr{
+        padding: 0 16px;
+    }
+
     .mof-footer .container{
         padding: 0;
     }
@@ -487,6 +533,10 @@
         padding: 16px;
     }
 
+    .header-2 .mof-header-container{
+        padding: 16px;
+    }
+
     h1 {
         font-size: 36px;
         line-height: 48px;
@@ -499,12 +549,36 @@
         margin-top: 70px;
     }
 
+    .marketing-content .sec-title{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .marketing-step:last-child::after{
+        width: 20%;
+        height: 30%;
+        transform: rotate(151deg);
+    }
+
     .blog-banner .banner-content .banner-des{
         margin-top: 40px;
     }
 
-    .header-2 .mof-header-container{
-        padding: 16px;
+    .blog-slider .single-blog .blog-title{
+        font-size: 18px;
+        line-height: 22px;
+        margin: 24px 0;
+    }
+
+    .catelog-content h3{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .catelog-content p{
+        font-size: 16px;
+        line-height: 19px;
+        padding-right: 0;
     }
 
     .project-contact h2{
