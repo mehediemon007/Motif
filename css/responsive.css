@@ -179,6 +179,11 @@
         line-height: 65px;
     }
 
+    .footer-top .social-links{
+        justify-content: flex-start;
+        margin-top: 24px;
+    }
+
 }
 
 /* Max Width 767px */
@@ -218,6 +223,52 @@
     .container-right{
         padding-left: var(--bs-gutter-x,.75rem);
         padding-right: 0;
+    }
+
+    .mof-footer .container{
+        padding: 0;
+    }
+
+    .footer-top,
+    .footer-bottom{
+        padding: 0;
+        border: 0;
+    }
+
+    .footer-top .contact-info,
+    .footer-top .social-links{
+        justify-content: center;
+        border-bottom: 1px solid #323232;
+        text-align: center;
+        padding: 32px 0;
+        margin: 0;
+    }
+
+    .footer-top .contact-info a{
+        font-size: 14px;
+    }
+
+    .footer-top .contact-info a i{
+        font-size: 18px;
+    }
+
+    .footer-bottom .copyright,
+    .footer-bottom .footer-links{
+        border-bottom: 1px solid #323232;
+        text-align: center;
+        padding: 32px 0;
+        margin: 0;
+    }
+
+    .footer-bottom a{
+        font-size: 14px;
+        font-weight: var(--font-weight-normal);
+    }
+
+    .footer-bottom .copyright,
+    .footer-bottom .copyright a{
+        font-size: 10px;
+        font-weight: var(--font-weight-normal);
     }
     
 }
@@ -340,10 +391,19 @@
 
 }
 
+/* Max Width 390px */
+
+@media only screen and (max-width:390px){
+    .footer-top .contact-info a{
+        margin-right: 16px;
+    }
+    
+}
+
 /* Max Width 380px */
 
 @media only screen and (max-width:380px){
-
+    
     
 }
 

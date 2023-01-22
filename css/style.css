@@ -1549,7 +1549,7 @@ textarea{
 -------------------------------------*/
 
 .footer-top{
-    padding: 50px 0;
+    padding: 54px 0 52px;
 }
 
 .footer-top .contact-info a{
@@ -1568,7 +1568,7 @@ textarea{
 }
 
 .footer-bottom{
-    padding: 28px 0;
+    padding: 28px 0 50px;
     border-top: 1px solid #323232;
 }
 
