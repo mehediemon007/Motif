@@ -599,7 +599,7 @@ textarea{
 }
 
 .banner-content{
-    padding: 130px 0;
+    padding: 140px 0;
 }
 
 .home-lg-banner .banner-content{
@@ -649,7 +649,7 @@ textarea{
 -------------------------------------*/
 
 .mof-about-us .single-content{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .about-image img{
@@ -657,12 +657,12 @@ textarea{
 }
 
 .mof-about-us .single-content:nth-child(2n) .about-image{
-    padding-right: 80px;
+    padding-right: 20px;
     padding-left: 0;
 }
 
 .about-content{
-    padding-right: 80px;
+    padding-right: 25px;
 }
 
 .about-content h5{

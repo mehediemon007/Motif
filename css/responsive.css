@@ -41,6 +41,19 @@
         padding-right: 60px;
     }
 
+    .mof-about-us .single-content{
+        margin-bottom: 150px;
+    }
+
+    .mof-about-us .single-content:nth-child(2n) .about-image{
+        padding-right: 80px;
+        padding-left: 0;
+    }
+    
+    .about-content{
+        padding-right: 80px;
+    }
+
 }
 
 
@@ -54,6 +67,10 @@
 
     .single-project.mt-top{
         margin-top: 50%;
+    }
+
+    .about-content .about-image{
+        display: none;
     }
 
 }
@@ -128,6 +145,10 @@
         line-height: 72px;
     }
 
+    .banner-content{
+        padding: 120px 0;
+    }
+
     /* Mobile Nav Start */
 
     .mof-header-container{
@@ -179,6 +200,19 @@
     }
 
     /* Mobile Nav End */
+
+    .mof-about-us .single-content{
+        margin-bottom: 90px;
+    }
+
+    .mof-about-us .single-content:nth-child(2n) .about-image,
+    .about-content{
+        padding: 0;
+    }
+
+    .about-content .about-image{
+        margin: 8px 0 32px;
+    }
 
     .founder-content, 
     .mof-cmp-highlights .challange-content{
@@ -309,6 +343,19 @@
         padding-right: 0;
     }
 
+    h5{
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .banner-content{
+        padding: 70px 0 70px 60px;
+    }
+
+    .mof-about-us .single-content{
+        padding: 0 32px;
+    }
+
     .services-wpr .service-list{
         padding-left: 70px;
     }
@@ -381,10 +428,6 @@
     h1 {
         font-size: 36px;
         line-height: 48px;
-    }
-
-    .banner-content{
-        padding: 70px 0 70px 60px;
     }
 
     .banner-content .banner-des{
