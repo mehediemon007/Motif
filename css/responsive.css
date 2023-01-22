@@ -22,6 +22,11 @@
         height: 100%;
     }
 
+    .testimonial-1 .single-review .review-image,
+    .testimonial-1 .single-review .review-content{
+        padding: 0 40px;
+    }
+
 }
 
 /* Min Width 1200px */
@@ -97,6 +102,14 @@
 
     .mof-blogs{
         grid-gap: 70px;
+    }
+
+    .single-review .review-text{
+        padding: 24px;
+    }
+
+    .single-review .review-text img{
+        margin-bottom: 16px;
     }
 
 }
@@ -207,6 +220,10 @@
     .services-wpr,
     .mof-blogs{
         grid-template-columns: 1fr;
+    }
+
+    .testimonial-1 .single-review .review-image{
+        padding: 40px 80px;
     }
 
     .footer-top .social-links{
@@ -444,6 +461,10 @@
 
     .mof-blogs{
         padding: 0 30px;
+    }
+
+    .testimonial-1 .single-review .review-image{
+        padding: 32px 70px;
     }
 
 }
