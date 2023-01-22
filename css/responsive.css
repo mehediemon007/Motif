@@ -87,6 +87,10 @@
         padding: 100px;
     }
 
+    .service-image .content{
+        width: 85%;
+    }
+
 }
 
 /* Max Width 991px */
@@ -370,6 +374,11 @@
         padding-bottom: 16px;
     }
 
+    .service-image .content{
+        width: 100%;
+        top: 0;
+    }
+
 }
 
 /* Max Width 416px */
@@ -400,6 +409,11 @@
     .single-project .project-name{
         font-size: 26px;
         line-height: 32px;
+    }
+
+    .service-image .content h5{
+        font-size: 24px;
+        line-height: 29px;
     }
 
 }
