@@ -91,6 +91,14 @@
         width: 85%;
     }
 
+    .services-wpr{
+        grid-gap: 50px;
+    }
+
+    .mof-blogs{
+        grid-gap: 70px;
+    }
+
 }
 
 /* Max Width 991px */
@@ -100,6 +108,11 @@
     .container-right{
         padding-left: calc((100% - 720px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 72px;
     }
 
     /* Mobile Nav Start */
@@ -191,6 +204,11 @@
         line-height: 65px;
     }
 
+    .services-wpr,
+    .mof-blogs{
+        grid-template-columns: 1fr;
+    }
+
     .footer-top .social-links{
         justify-content: flex-start;
         margin-top: 24px;
@@ -204,6 +222,16 @@
     .container-right{
         padding-left: calc((100% - 540px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .banner-content .banner-des{
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .project-contact h6{
@@ -239,6 +267,21 @@
     .container-right{
         padding-left: var(--bs-gutter-x,.75rem);
         padding-right: 0;
+    }
+
+    .services-wpr .service-list{
+        padding-left: 70px;
+    }
+
+    .services-wpr .service-list p{
+        position: relative;
+        padding-left: 20px;
+    }
+
+    .services-wpr .service-list p::before{
+        position: absolute;
+        content: "\2022";
+        left: 0;
     }
 
     .mof-footer .container{
@@ -293,6 +336,26 @@
 @media only screen and (max-width:480px){
     .mof-header-container{
         padding: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .banner-content{
+        padding: 70px 0 70px 60px;
+    }
+
+    .banner-content .banner-des{
+        font-size: 18px;
+        font-weight: var(--font-weight-normal);
+        line-height: 22px;
+        margin-top: 70px;
+    }
+
+    .blog-banner .banner-content .banner-des{
+        margin-top: 40px;
     }
 
     .header-2 .mof-header-container{
@@ -377,6 +440,10 @@
     .service-image .content{
         width: 100%;
         top: 0;
+    }
+
+    .mof-blogs{
+        padding: 0 30px;
     }
 
 }
