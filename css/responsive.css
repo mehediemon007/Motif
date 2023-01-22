@@ -414,6 +414,10 @@
 
     .project-contact::before{
         height: 80px;
+        bottom: -36%;
+    }
+
+    .about-main-content .project-contact::before{
         bottom: -28%;
     }
 
