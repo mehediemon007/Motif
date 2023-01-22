@@ -793,10 +793,6 @@ textarea{
     border-bottom: 2px solid var(--white-color);
 }
 
-.single-project.mt-top{
-    margin-top: 50%;
-}
-
 .single-project .project-name{
     position: relative;
     left: -35%;
