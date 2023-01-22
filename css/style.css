@@ -485,6 +485,10 @@ textarea{
     background-color: var(--white-color);
 }
 
+.btn:focus{
+    box-shadow: none;
+}
+
 .btn-secondary{
     color: var(--primary-color);
     background-color: var(--white-color);

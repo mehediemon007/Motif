@@ -292,13 +292,9 @@
     }
 
     .project-cat-links-wpr::-webkit-scrollbar {
-        -webkit-appearance: none;
+        width: 0;
     }
-
-    .project-cat-links-wpr::-webkit-scrollbar-thumb{
-        -webkit-appearance: none;
-    }
-
+    
     .project-cat-links{
         gap: 24px;
         flex-wrap: nowrap;
