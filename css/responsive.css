@@ -226,6 +226,10 @@
         padding: 40px 80px;
     }
 
+    .testimonial-1 h6.text-center{
+        margin-bottom: 40px;
+    }
+
     .footer-top .social-links{
         justify-content: flex-start;
         margin-top: 24px;
@@ -274,6 +278,25 @@
 
     .single-project .project-name{
         font-size: 45px;
+    }
+
+    .testimonial-1 h6.text-center{
+        margin-bottom: 90px;
+    }
+
+    .testimonial-slider .owl-dots{
+        position: absolute;
+        top: -45px;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 16px;
+        margin-top: 0;
+        overflow-x: auto;
+    }
+
+    .testimonial-slider .owl-dots button{
+        min-width: max-content;
+        padding-bottom: 24px;
     }
     
 }
@@ -439,7 +462,7 @@
         padding-bottom: 1px;
     }
 
-    .project-cat-links-wpr::-webkit-scrollbar {
+    div::-webkit-scrollbar {
         width: 0;
     }
     
@@ -454,6 +477,10 @@
         padding-bottom: 16px;
     }
 
+    .services-wpr.sec-spacer-bottom{
+        padding-bottom: 70px;
+    }
+
     .service-image .content{
         width: 100%;
         top: 0;
@@ -463,8 +490,27 @@
         padding: 0 30px;
     }
 
+    .testimonial-1{
+        padding-bottom: 100px;
+    }
+
     .testimonial-1 .single-review .review-image{
         padding: 32px 70px;
+    }
+
+    .single-review .review-text{
+        font-size: 18px;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 27px;
+    }
+
+    .partners-wpr{
+        grid-template-columns: repeat(3,1fr);
+        margin: 40px 0 80px;
+    }
+
+    .mof-partners {
+        margin-top: 70px !important;
     }
 
 }
