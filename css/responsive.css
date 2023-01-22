@@ -14,6 +14,10 @@
         height: 230px;
     }
 
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 305px;
+    }
+
     .project-contact h6{
         max-width: 35%;
     }
@@ -102,6 +106,10 @@
     .container-right{
         padding-left: calc((100% - 960px) / 2 + 15px);
         padding-right: 0;
+    }
+
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 470px;
     }
 
     .faq-content-wpr .service-list{
@@ -227,6 +235,11 @@
 
     /* Mobile Nav End */
 
+    .landing-banner{
+        height: auto;
+        padding: 150px 0;
+    }
+
     .mof-marketing{
         padding: 150px 0;
     }
@@ -322,6 +335,10 @@
         margin-bottom: 40px;
     }
 
+    .testimonial-2 .review-content{
+        max-width: 100%;
+    }
+
     .testimonial-3 .review-text{
         font-size: 24px;
         font-weight: var(--font-weight-semi-bold);
@@ -330,6 +347,36 @@
 
     .testimonial-3 .review-client{
         margin-top: 90px;
+    }
+
+    .faq label h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .faq-list .faq{
+        padding: 32px 24px 37px 120px;
+    }
+
+    .faq-content-wpr .service-list{
+        max-width: 100%;
+    }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 270px;
+    }
+
+    .faq-2 .faq-list .faq {
+        padding: 28px 0 10px 120px;
+    }
+
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 320px;
+    }
+
+    .landing-banner .banner-content{
+        justify-content: center;
+        padding: 0;
     }
 
     .footer-top .social-links{
@@ -418,6 +465,23 @@
     .mof-strength .strength-content{
         align-items: center;
     }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 340px;
+    }
+
+    .faq-content-wpr .service-list{
+        grid-column-gap: 50px;
+    }
+
+    .faq-2 .sec-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 440px;
+    }
     
 }
 
@@ -477,6 +541,46 @@
 
     .mof-blogs-wpr{
         padding: 0 16px;
+    }
+
+    .faq-list .faq {
+        padding: 24px 16px 12px 70px;
+    }
+
+    .faq label h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .faq label::before {
+        left: -55px;
+        font-size: 45px;
+        line-height: 35px;
+    }
+
+    .faq-content-wpr .content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .faq-content-wpr .service-list{
+        grid-template-columns: 1fr;
+    }
+
+    .faq-content-wpr .service-list li{
+        position: relative;
+        margin-bottom: 8px;
+        padding-left: 16px;
+    }
+
+    .faq-content-wpr .service-list li::before{
+        position: absolute;
+        content: "\2022";
+        left: 0;
+    }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 320px;
     }
 
     .mof-footer .container{
@@ -736,6 +840,11 @@
 
 @media only screen and (max-width:416px){
 
+    .landing-banner .banner-title{
+        font-size: 38px;
+        line-height: 44px;
+    }
+
     .nav-toggle{
         width: 30px;
         margin-right: 16px;
@@ -747,6 +856,10 @@
 
     .header-2 .logo{
         font-size: 35px;
+    }
+
+    .marketing-step:last-child::after{
+        content: none;
     }
 
     .project-contact h6{
@@ -785,10 +898,6 @@
         line-height: 28px;
     }
 
-    .testimonial-1 .owl-stage-outer{
-       max-height: 860px;
-    }
-
     .testimonial-3 .single-review .review-text{
         font-size: 14px;
     }
@@ -797,6 +906,10 @@
         width: 40px;
         height: 40px;
         font-size: 16px !important;
+    }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 340px;
     }
 
     .footer-top .contact-info a:last-child{
@@ -819,6 +932,10 @@
         padding-left: 35px;
     }
 
+    .blog-slider .single-blog .blog-title{
+        font-size: 17px;
+    }
+
     .testimonial-3 .review-client{
         margin-top: 60px;
     }
@@ -826,6 +943,10 @@
     .testi-slider-3 .owl-nav{
         left: 70%;
         bottom: 50px;
+    }
+
+    .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 350px;
     }
 
     .footer-top .contact-info a{

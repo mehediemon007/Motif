@@ -841,7 +841,7 @@ textarea{
 -------------------------------------*/
 
 .mof-feature-projects{
-    padding: 120px 0;
+    padding: 120px 0 50px;
 }
 
 .mof-feature-projects .project-slider{
@@ -900,6 +900,10 @@ textarea{
 /* -----------------------------------
     04. Landing Page
 -------------------------------------*/
+
+.mof-career{
+    margin-top: 80px;
+}
 
 .career-slider{
     margin-top: 70px;
@@ -1103,7 +1107,8 @@ textarea{
     padding-bottom: 150px;
 }
 
-.testimonial-1 h6.text-center{
+.testimonial-1 h6.text-center,
+.testimonial-2 h6.text-center{
     margin-bottom: 70px;
 }
 
@@ -1185,6 +1190,10 @@ textarea{
     12. FAQ
 -------------------------------------*/
 
+.mof-faq.faq-2{
+    margin: 150px 0;
+}
+
 .faq-2 .sec-title{
     font-size: 36px;
     line-height: 44px;
@@ -1197,6 +1206,10 @@ textarea{
     border-bottom: 1px solid #242424;
     padding: 52px 120px 37px;
     overflow: hidden;
+}
+
+.faq-list .faq:last-child{
+    border-bottom: 0;
 }
 
 .faq-2 .faq-list .faq{
@@ -1282,7 +1295,7 @@ textarea{
 }
 
 .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
-    height: 305px;
+    height: 370px;
 }
 
 /* -----------------------------------
@@ -1292,6 +1305,7 @@ textarea{
 .mof-marketing{
     position: relative;
     padding: 330px 0 150px;
+    margin-top: 80px;
     z-index: 1;
 }
 

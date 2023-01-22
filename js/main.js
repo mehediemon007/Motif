@@ -138,6 +138,17 @@
         nav: false,
         dots: true,
         dotsData: true,
+        autoHeight:true
+    });
+
+    $('.testi-slider-2').owlCarousel({
+        items:1,
+        nav: false,
+        dots: false,
+        // singleItem:true,
+        // slideSpeed : 300,
+        // paginationSpeed : 400,
+        autoHeight:true
     });
 
     $('.testi-slider-3').owlCarousel({
