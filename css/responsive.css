@@ -70,6 +70,10 @@
         max-width: 50%;
     }
 
+    .about-main-content .project-contact h6{
+        max-width: 68%;
+    }
+
     .project-contact::before{
         height: 70%;
     }
@@ -155,6 +159,10 @@
         max-width: 70%;
     }
 
+    .about-main-content .project-contact h6{
+        max-width: 90%;
+    }
+
     .project-contact::before{
         height: 56%;
     }
@@ -196,6 +204,10 @@
 
     .project-contact h6{
         max-width: 85%;
+    }
+
+    .about-main-content .project-contact h6{
+        max-width: 100%;
     }
 
     .project-contact::before{
@@ -285,6 +297,7 @@
 
     .project-contact h2{
         font-size: 32px;
+        line-height: 39px;
     }
 
     .project-contact h6{
@@ -294,7 +307,7 @@
 
     .project-contact::before{
         height: 80px;
-        bottom: -34%;
+        bottom: -28%;
     }
 
     .company-services .service-list{
