@@ -1149,6 +1149,10 @@
         top: -65px;
     }
 
+    .project-slider .project-content a.btn{
+        width: 84%;
+    }
+
     .career-slider .owl-nav{
         top: -70px;
     }
@@ -1264,6 +1268,11 @@
     h1{
         font-size: 32px;
         line-height: 40px;
+    }
+
+    .faq label h2{
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .project-slider .owl-nav{
