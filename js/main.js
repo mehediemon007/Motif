@@ -72,6 +72,7 @@
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
+        smartSpeed : 500,
         // center:true,
         margin:10,
         onInitialized  : counter, //When the plugin has initialized.
@@ -100,6 +101,7 @@
         dots:false,
         center:true,
         autoHeight:true,
+        smartSpeed : 500,
         onInitialized  : counter, //When the plugin has initialized.
         onTranslated : counter,
         responsive:{
@@ -128,6 +130,7 @@
         nav:false,
         dots:false,
         margin:50,
+        smartSpeed : 500,
         responsive:{
             0:{
                 items: 1.15,
@@ -147,6 +150,7 @@
         autoplay:true,
         nav: false,
         dots: true,
+        smartSpeed : 500,
         dotsData: true,
         autoHeight:true
     });
@@ -157,8 +161,7 @@
         nav: false,
         dots: false,
         // singleItem:true,
-        // slideSpeed : 300,
-        // paginationSpeed : 400,
+        smartSpeed : 500,
         autoHeight:true
     });
 
@@ -169,6 +172,7 @@
         nav: true,
         navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
         dots: false,
+        smartSpeed : 500,
         margin: 32,
         responsive:{
             0:{
