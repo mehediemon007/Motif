@@ -68,7 +68,7 @@
     $(".project-slider").owlCarousel({
         items: 1.1,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
@@ -94,7 +94,7 @@
     $(".career-slider").owlCarousel({
         items: 1,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
@@ -123,7 +123,7 @@
     $(".blog-slider").owlCarousel({
         items:2,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         nav:false,
         dots:false,
         margin:50,
@@ -143,6 +143,7 @@
 
     $('.testimonial-slider').owlCarousel({
         items:1,
+        autoplay:true,
         nav: false,
         dots: true,
         dotsData: true,
@@ -151,6 +152,7 @@
 
     $('.testi-slider-2').owlCarousel({
         items:1,
+        autoplay:true,
         nav: false,
         dots: false,
         // singleItem:true,
@@ -161,6 +163,7 @@
 
     $('.testi-slider-3').owlCarousel({
         items:1.5,
+        autoplay:true,
         loop:true,
         nav: true,
         navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
