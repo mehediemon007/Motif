@@ -77,7 +77,15 @@
         onInitialized  : counter, //When the plugin has initialized.
         onTranslated : counter,
         responsive:{
-
+            0:{
+                margin: 16
+            },
+            576:{
+                margin: 32
+            },
+            768:{
+                margin: 10
+            }
         }
     })
 

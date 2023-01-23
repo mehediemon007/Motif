@@ -365,11 +365,12 @@ input:-webkit-autofill {
 }
 
 .project-slider .owl-nav{
-    left: 693px;
+    left: 51.3%;
 }
 
 .project-slider + #counter{
-    right: 31%;
+    right: 36%;
+    margin-bottom: 16px;
 }
 
 form label{
@@ -867,13 +868,8 @@ textarea{
 }
 
 .project-slider .project-content{
-    /* position: absolute;
-    top: 62px;
-    left: 100%;
-    width: max-content;
-    display: none; */
     width: 400px;
-    margin-top: 180px;
+    margin-top: 160px;
     padding-left: 50px;
 }
 
@@ -886,7 +882,7 @@ textarea{
     white-space: nowrap;
     left: auto;
     right: -320px;
-    top: 62px;
+    top: 40px;
 }
 
 /* .project-slider .single-project{

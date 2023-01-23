@@ -35,6 +35,22 @@
         left: -35%;
     }
 
+    .project-slider .owl-nav{
+        left: 693px;
+    }
+
+    .project-slider .project-content{
+        margin-top: 180px;
+    }
+
+    .project-slider .project-name{
+        top: 62px;
+    }
+
+    .project-slider + #counter{
+        right: 37%;
+    }
+
 }
 
 /* Min Width 1200px */
@@ -166,6 +182,53 @@
         max-width: 80%;
     }
 
+    .project-slider .owl-nav{
+        left: 525px;
+        bottom: 74px;
+    }
+
+    .project-slider .project-name{
+        top: 30px;
+    }
+
+    .project-slider .project-content{
+        margin-top: 130px;
+    }
+
+}
+
+/* Max Width 1099px */
+@media only screen and (max-width:1099px){
+
+    .project-slider .project-content{
+        margin-top: 112px;
+    }
+
+    .project-slider .owl-nav{
+        left: 494px;
+    }
+
+    .project-slider .project-name{
+        top: 20px;
+        right: -254px;
+        font-size: 60px;
+    }
+}
+
+/* Max Width 1024px */
+@media only screen and (max-width:1024px){
+
+    .project-slider .project-content{
+        margin-top: 100px;
+    }
+
+    .project-slider .owl-nav{
+        left: 48%;
+    }
+
+    .project-slider .project-name{
+        top: 10px;
+    }
 }
 
 /* Max Width 991px */
@@ -246,6 +309,29 @@
     }
 
     /* Mobile Nav End */
+
+    .mof-feature-projects{
+        padding: 0 0 100px;
+    }
+
+    .project-slider .owl-nav{
+        bottom: 0;
+        left: 45%;
+        margin-top: 40px;
+    }
+
+    .owl-nav button{
+        width: 100px;
+        height: 60px;
+    }
+
+    .project-slider + #counter{
+        bottom: 19%;
+    }
+
+    .project-slider .project-content{
+        margin-top: 90px;
+    }
 
     .landing-banner{
         height: auto;
@@ -333,10 +419,10 @@
     }
 
     .single-project .project-name{
-        left: 0;
         font-size: 55px;
         margin-bottom: 24px;
         line-height: 65px;
+        right: -233px;
     }
 
     .services-wpr,
@@ -454,6 +540,43 @@
         font-size: 24px;
     }
 
+    .mof-feature-projects{
+        padding-top: 100px;
+    }
+
+    .project-slider .owl-nav{
+        position: absolute;
+        bottom: auto;
+        top: -90px;
+        left: 70%;
+        margin-top: 0;
+    }
+
+    .owl-nav button{
+        width: 70px;
+        height: 40px;
+        font-weight: var(--font-weight-bold) !important;
+    }
+
+    .project-slider .single-project{
+        flex-direction: column;
+    }
+
+    .single-project .project-name{
+        top: 100%;
+        right: auto;
+        left: 0;
+        margin-top: 32px;
+    }
+
+    .project-slider .project-content{
+        margin-top: 130px;
+    }
+
+    .project-slider + #counter{
+        display: none;
+    }
+
     .project-contact h6{
         max-width: 85%;
     }
@@ -542,6 +665,10 @@
     .banner-content,
     .home-banner .banner-content{
         padding: 70px 0 70px 60px;
+    }
+
+    .mof-feature-projects{
+        padding: 20px 0 100px 16px;
     }
 
     .mof-marketing .marketing-heading{
@@ -733,6 +860,10 @@
         content: none;
     }
 
+    .mof-marketing{
+        padding-bottom: 40px;
+    }
+
     .blog-banner .banner-content .banner-des{
         margin-top: 40px;
     }
@@ -802,6 +933,10 @@
         line-height: 45px;
     }
 
+    .project-slider .owl-nav{
+        left: 61%;
+    }
+
     .project-content a.btn{
         position: absolute;
         left: 0;
@@ -811,6 +946,21 @@
         height: 50px;
         line-height: 50px;
         margin-top: 0;
+    }
+
+    .project-slider .project-content{
+        padding-left: 0;
+    }
+
+    .project-slider .project-services,
+    .project-slider .project-content p{
+        padding-left: 32px;
+    }
+
+    .project-slider .project-content a.btn{
+        position: relative;
+        bottom: 0;
+        margin-top: 50px;
     }
 
     .project-cat-links-wpr{
@@ -949,6 +1099,11 @@
         line-height: 32px;
     }
 
+    .project-slider .single-project .project-name{
+        font-size: 36px;
+        line-height: 58px;
+    }
+
     .service-image .content h5{
         font-size: 24px;
         line-height: 29px;
@@ -1003,7 +1158,7 @@
 
     .banner-content,
     .about-2 .banner-content{
-        padding-left: 35px;
+        padding-left: 35px !important;
     }
 
     .marketing-heading .sec-title {
@@ -1026,6 +1181,14 @@
 
     .faq input[type="radio"]:checked ~ .faq-content-wpr{
         height: 350px;
+    }
+
+    .project-slider .owl-nav{
+        left: 55%;
+    }
+
+    .project-slider .project-content a.btn{
+        width: 80%;
     }
 
     .footer-top .contact-info a{
