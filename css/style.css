@@ -1313,7 +1313,7 @@ textarea{
 
 .mof-marketing .marketing-heading{
     position: relative;
-    padding: 350px 0 250px;
+    padding: 325px 0 190px;
     z-index: 1;
 }
 
@@ -1337,14 +1337,14 @@ textarea{
 
 .marketing-content{
     position: relative;
-    margin-top: -16%;
+    margin-top: -150px;
     z-index: 1;
 }
 
 .marketing-content .sec-des{
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 
 .marketing-steps{
