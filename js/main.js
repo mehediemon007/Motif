@@ -94,7 +94,7 @@
     $(".career-slider").owlCarousel({
         items: 1,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
