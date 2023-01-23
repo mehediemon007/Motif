@@ -31,8 +31,29 @@
         padding: 0 40px;
     }
 
+    .career-slider .slide-content{
+        margin-top: 60px;
+        padding-left: 0;
+    }
+
+    .career-slider + #counter{
+        right: 34%;
+        bottom: 25%;
+    }
+
+    .career-slider .owl-nav{
+        bottom: 100px;
+        left: calc(100% - 46.9%)
+    }
+
+    .career-slider .owl-nav button{
+        width: 114px;
+        height: 74px;
+    }
+
     .career-slider .slide-content .company-name{
         left: -35%;
+        margin-bottom: 32px;
     }
 
     .project-slider .owl-nav{
@@ -49,6 +70,7 @@
 
     .project-slider + #counter{
         right: 37%;
+        bottom: 22%;
     }
 
 }
@@ -193,6 +215,20 @@
 
     .project-slider .project-content{
         margin-top: 130px;
+    }
+
+    .mof-career{
+        margin-bottom: 70px;
+    }
+
+    .career-slider .owl-nav {
+        bottom: 24px;
+        left: calc(100% - 53%);
+    }
+
+    .career-slider + #counter{
+        right: 41%;
+        bottom: 16%;
     }
 
 }
@@ -405,6 +441,21 @@
         height: 56%;
     }
 
+    .career-slider .slide-content .company-name{
+        left: 0;
+    }
+
+    .career-slider .owl-nav{
+        position: absolute;
+        bottom: auto;
+        top: -90px;
+        left: 71%;
+    }
+
+    .career-slider + #counter{
+        display: none;
+    }
+
     .company-services .service-list{
         column-count: 2;
         margin-bottom: 50px;
@@ -552,7 +603,8 @@
         margin-top: 0;
     }
 
-    .owl-nav button{
+    .owl-nav button,
+    .career-slider .owl-nav button{
         width: 70px;
         height: 40px;
         font-weight: var(--font-weight-bold) !important;
@@ -579,6 +631,10 @@
 
     .project-contact h6{
         max-width: 85%;
+    }
+
+    .career-slider .slide-content .btn{
+        width: 100%;
     }
 
     .about-main-content .project-contact h6{
@@ -781,6 +837,18 @@
         height: 320px;
     }
 
+    .mof-faq.faq-2{
+        margin-bottom: 60px;
+    }
+
+    .faq-2 .faq-list .faq {
+        padding: 28px 0 10px 70px;
+    }
+
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 320px;
+    }
+
     .mof-footer .container{
         padding: 0;
     }
@@ -937,6 +1005,10 @@
         left: 61%;
     }
 
+    .career-slider .owl-nav{
+        left: 65%;
+    }
+
     .project-content a.btn{
         position: absolute;
         left: 0;
@@ -948,8 +1020,13 @@
         margin-top: 0;
     }
 
-    .project-slider .project-content{
+    .project-slider .project-content,
+    .career-slider .slide-content{
         padding-left: 0;
+    }
+
+    .career-slider .single-slide{
+        padding: 0 16px;
     }
 
     .project-slider .project-services,
@@ -1049,11 +1126,32 @@
         margin-top: 70px !important;
     }
 
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr {
+        height: 390px;
+    }
+
 }
 
 /* Max Width 416px */
 
 @media only screen and (max-width:416px){
+
+    .sec-sub-title{
+        max-width: 50%;
+    }
+
+    .mof-feature-projects .project-slider,
+    .career-slider{
+        margin-top: 32px;
+    }
+
+    .project-slider .owl-nav{
+        top: -65px;
+    }
+
+    .career-slider .owl-nav{
+        top: -70px;
+    }
 
     .landing-banner .banner-title{
         font-size: 38px;
@@ -1104,6 +1202,10 @@
         line-height: 58px;
     }
 
+    .career-slider .owl-nav{
+        left: 61%;
+    }
+
     .service-image .content h5{
         font-size: 24px;
         line-height: 29px;
@@ -1137,6 +1239,14 @@
         font-size: 16px !important;
     }
 
+    .mof-faq.faq-2{
+        margin: 80px 0;
+    }
+
+    .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
+        height: 450px;
+    }
+
     .faq input[type="radio"]:checked ~ .faq-content-wpr{
         height: 340px;
     }
@@ -1154,6 +1264,14 @@
     h1{
         font-size: 32px;
         line-height: 40px;
+    }
+
+    .project-slider .owl-nav{
+        top: -68px;
+    }
+
+    .career-slider .owl-nav{
+        left: 56%;
     }
 
     .banner-content,

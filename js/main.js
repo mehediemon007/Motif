@@ -94,11 +94,12 @@
     $(".career-slider").owlCarousel({
         items: 1,
         loop:true,
-        autoplay:true,
+        autoplay:false,
         nav:true,
         navText: ["Pre","Next"],
         dots:false,
         center:true,
+        autoHeight:true,
         onInitialized  : counter, //When the plugin has initialized.
         onTranslated : counter,
         responsive:{
