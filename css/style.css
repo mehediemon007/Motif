@@ -12,24 +12,6 @@
 *
 **/
 
-/* Table Of Content
----------------------------------------------------------
-01. General CSS
-02. Global Design
-03. Header and Toolbar
-04. Banner
-05. About Us
-06. Services
-07. Portfolio
-08. Experience
-09. Testimonial
-10. Contact
-11. Blogs
-12. FAQ
-13. Skills
-14. Footer
---------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap');
 
 :root {
@@ -56,7 +38,7 @@
 }
 
 /* -----------------------------------
-    01. General CSS
+    General CSS
 -------------------------------------*/
 html,
 body {
@@ -312,7 +294,7 @@ input:-webkit-autofill {
 }
 
 /* -----------------------------------
-    02. Global Design
+    Global Design
 -------------------------------------*/
 #counter{
     position: absolute;
@@ -529,7 +511,7 @@ textarea{
 }
 
 /* -----------------------------------
-    03. Header and Toolbar
+    Header and Toolbar
 -------------------------------------*/
 
 .mof-header{
@@ -599,7 +581,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Banner
+    Banner
 -------------------------------------*/
 
 .home-lg-banner{
@@ -664,7 +646,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. About
+    About
 -------------------------------------*/
 
 .mof-about-us .single-content{
@@ -727,7 +709,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Services
+    Services
 -------------------------------------*/
 
 .services-wpr{
@@ -800,7 +782,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Projects
+    Projects
 -------------------------------------*/
 
 .project-cat-links{
@@ -856,7 +838,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Feature Projects
+    Feature Projects
 -------------------------------------*/
 
 .mof-feature-projects{
@@ -867,14 +849,8 @@ textarea{
     margin-top: 70px;
 }
 
-/* .project-slider .owl-stage-outer{
-    overflow: visible;
-} */
-
 .project-slider .single-project{
-    /* position: relative; */
     display: flex;
-    /* max-width: 65%; */
 }
 
 .project-slider .project-image{
@@ -899,20 +875,8 @@ textarea{
     top: 40px;
 }
 
-/* .project-slider .single-project{
-    display: flex;
-}
-
-.project-slider .project-image{
-    flex: 1 0 auto;
-}
-
-.project-slider .project-image img{
-    height: 707px;
-} */
-
 /* -----------------------------------
-    04. Landing Page
+    Landing Page
 -------------------------------------*/
 
 .mof-career{
@@ -966,7 +930,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Blogs
+    Blogs
 -------------------------------------*/
 
 .mof-blogs-wpr{
@@ -1024,7 +988,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Why Choose MOTOF
+    Why Choose MOTOF
 -------------------------------------*/
 
 .mof-strength{
@@ -1083,7 +1047,7 @@ textarea{
 }
 
 /* -----------------------------------
-    12. Testimonial
+    Testimonial
 -------------------------------------*/
 
 .testimonial-slider .owl-dots{
@@ -1202,7 +1166,7 @@ textarea{
 }
 
 /* -----------------------------------
-    12. FAQ
+    FAQ
 -------------------------------------*/
 
 .mof-faq.faq-2{
@@ -1314,7 +1278,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Marketing Process
+    Marketing Process
 -------------------------------------*/
 
 .mof-marketing{
@@ -1396,7 +1360,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Partners
+    Partners
 -------------------------------------*/
 
 .partners-wpr{
@@ -1419,7 +1383,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Project Contact
+    Project Contact
 -------------------------------------*/
 
 .mof-project-idea{
@@ -1463,7 +1427,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Project Catelog
+    Project Catelog
 -------------------------------------*/
 
 .catelog-wpr{
@@ -1495,7 +1459,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Company Profile
+    Company Profile
 -------------------------------------*/
 
 .mof-about-2{
@@ -1614,7 +1578,7 @@ textarea{
 }
 
 /* -----------------------------------
-    04. Footer
+    Footer
 -------------------------------------*/
 
 .footer-top{
