@@ -31,6 +31,10 @@
         padding: 0 40px;
     }
 
+    .career-slider .slide-content .company-name{
+        left: -35%;
+    }
+
 }
 
 /* Min Width 1200px */
@@ -173,6 +177,10 @@
         padding-right: 0;
     }
 
+    .sec-spacer-top{
+        padding-top: 100px;
+    }
+
     h1{
         font-size: 60px;
         line-height: 72px;
@@ -181,6 +189,10 @@
     .banner-content,
     .about-2 .about-banner{
         padding: 120px 0;
+    }
+
+    .home-banner .banner-content{
+        padding: 130px 0;
     }
 
     /* Mobile Nav Start */
@@ -241,7 +253,7 @@
     }
 
     .mof-marketing{
-        padding: 150px 0;
+        padding: 100px 0;
     }
 
     .marketing-content .sec-title {
@@ -327,6 +339,14 @@
         grid-template-columns: 1fr;
     }
 
+    .mof-blogs-wpr{
+        margin-bottom: 100px;
+    }
+
+    .testimonial-1{
+        padding-bottom: 100px;
+    }
+
     .testimonial-1 .single-review .review-image{
         padding: 40px 80px;
     }
@@ -366,6 +386,10 @@
         height: 270px;
     }
 
+    .mof-faq.faq-2{
+        margin: 100px 0;
+    }
+
     .faq-2 .faq-list .faq {
         padding: 28px 0 10px 120px;
     }
@@ -377,6 +401,10 @@
     .landing-banner .banner-content{
         justify-content: center;
         padding: 0;
+    }
+
+    .partners-wpr{
+        margin: 70px 0 100px;
     }
 
     .footer-top .social-links{
@@ -397,6 +425,10 @@
     h1 {
         font-size: 45px;
         line-height: 55px;
+    }
+
+    .home-banner .banner-content{
+        padding: 110px 0 0;
     }
 
     .banner-content .banner-des{
@@ -498,7 +530,8 @@
         line-height: 31px;
     }
 
-    .banner-content{
+    .banner-content,
+    .home-banner .banner-content{
         padding: 70px 0 70px 60px;
     }
 
@@ -775,10 +808,6 @@
 
     .mof-blogs{
         padding: 0 16px;
-    }
-
-    .testimonial-1{
-        padding-bottom: 100px;
     }
 
     .testimonial-1 .single-review .review-image{

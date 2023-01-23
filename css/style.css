@@ -530,6 +530,10 @@ textarea{
     position: fixed;
 }
 
+.header-2.sticky{
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 30%);
+}
+
 .mof-header-container{
     position: relative;
     display: flex;
@@ -541,7 +545,7 @@ textarea{
 
 .header-2 .mof-header-container{
     background-color: var(--white-color);
-    padding: 32px 40px;
+    padding: 24px 40px;
 }
 
 .header-2 .logo{
@@ -919,7 +923,7 @@ textarea{
 
 .career-slider .slide-content .company-name{
     position: relative;
-    left: -35%;
+    left: -25%;
     margin-bottom: 32px;
 }
 

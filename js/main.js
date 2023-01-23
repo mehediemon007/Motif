@@ -238,7 +238,7 @@ if(portfolioFilter != null){
 
     const headerContainer = document.querySelector(".mof-header");
     window.onscroll = ()=>{
-        this.scrollY > 50 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+        this.scrollY > 30 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
     }
 
 })()
