@@ -1307,33 +1307,44 @@ textarea{
 -------------------------------------*/
 
 .mof-marketing{
-    position: relative;
-    padding: 330px 0 150px;
+    padding-bottom: 150px;
     margin-top: 80px;
+}
+
+.mof-marketing .marketing-heading{
+    position: relative;
+    padding: 350px 0 250px;
     z-index: 1;
 }
 
-.mof-marketing::before{
+.marketing-heading::before{
     position: absolute;
     top: 0;
     height: 0;
     content: "";
     width: 100%;
-    height: 70%;
-    background: url("../images/services/marketing.png") no-repeat left top;
+    height: 100%;
+    background: url("../images/services/marketing.png") no-repeat 15% 0%;
+    background-size: cover;
     z-index: -1;
 }
 
-.marketing-content .sec-title{
+.marketing-heading .sec-title{
     max-width: 80%;
     font-size: 85px;
     line-height: 80px;
 }
 
+.marketing-content{
+    position: relative;
+    margin-top: -16%;
+    z-index: 1;
+}
+
 .marketing-content .sec-des{
     font-size: 25px;
     line-height: 30px;
-    margin: 50px 0 70px;
+    margin-bottom: 70px;
 }
 
 .marketing-steps{

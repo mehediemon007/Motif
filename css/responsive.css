@@ -256,7 +256,7 @@
         padding: 100px 0;
     }
 
-    .marketing-content .sec-title {
+    .marketing-heading .sec-title {
         max-width: 100%;
         font-size: 65px;
         line-height: 72px;
@@ -436,7 +436,7 @@
         line-height: 36px;
     }
 
-    .marketing-content .sec-title {
+    .marketing-heading .sec-title {
         font-size: 55px;
         line-height: 66px;
     }
@@ -686,7 +686,7 @@
         margin-top: 70px;
     }
 
-    .marketing-content .sec-title{
+    .marketing-heading .sec-title{
         font-size: 48px;
         line-height: 56px;
     }
