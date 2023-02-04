@@ -202,11 +202,45 @@
     // Mobile Menu Toggle 
 
     $(".nav-toggle").on("click",function(){
-        $("i",this).toggleClass("fa-sharp fa-solid fa-bars fa-solid fa-xmark")
-        $(".mof-nav-wpr").slideToggle();
+        // $("i",this).toggleClass("fa-sharp fa-solid fa-bars fa-solid fa-xmark")
+        $(".mof-nav-wpr").slideToggle("500");
+        $(".mof-nav-wpr").addClass("show");
+    })
+
+    $(".nav-close").on("click",function(){
+        $(".mof-nav-wpr").removeClass("show");
+        setTimeout(function(){
+            $(".mof-nav-wpr").slideToggle("500");
+        },1000)
     })
 
     // new WOW().init();
+
+    // Preloader
+
+    function loadCounter(){
+        $("html").addClass("stop-scrolling");
+        $("html").animate({
+            scrollTop: 0
+        });
+        let count = setInterval(function(){
+            let c = parseInt($(".load-count").text());
+            $(".load-count").text((++c).toString());
+            
+            $("body").append('<style>.load-bar::before{width: ' + (++c) + '%;}</style>')
+
+            if(c == 100){
+                clearInterval(count);
+                $(".preloader .content").addClass("hide");
+                $(".preloader").addClass("active");
+                $("html").removeClass("stop-scrolling");
+            }
+        },30);
+    }
+
+    $("document").ready(function(){
+        loadCounter();
+    })
 
 })(jQuery)
 
@@ -255,6 +289,30 @@ if(portfolioFilter != null){
     const headerContainer = document.querySelector(".mof-header");
     window.onscroll = ()=>{
         this.scrollY > 30 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+    }
+
+    // Start Animation
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+        document.addEventListener("scroll", function(event) {
+            const animatedBoxes = document.getElementsByClassName("animBox");
+            const windowOffsetTop = window.innerHeight + window.scrollY;
+    
+            Array.prototype.forEach.call(animatedBoxes, (animatedBox) => {
+                const animatedBoxOffsetTop = animatedBox.offsetTop;
+    
+                if (windowOffsetTop >= animatedBoxOffsetTop) {
+                    addClass(animatedBox, "animateRight");
+                }
+            });
+        });
+    });
+    
+    function addClass(element, className) {
+        const arrayClasses = element.className.split(" ");
+        if (arrayClasses.indexOf(className) === -1) {
+            element.className += " " + className;
+        }
     }
 
 })()

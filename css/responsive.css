@@ -114,6 +114,10 @@
 
 @media only screen and (min-width:992px){
 
+    .mobile-nav-heading{
+        display: none;
+    }
+
     .mof-nav-wpr{
         display: block !important;
     }
@@ -301,6 +305,18 @@
         padding: 16px 24px;
     }
 
+    .mobile-nav-heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    .mobile-nav-heading *{
+        font-size: 14px;
+        font-weight: var(--font-weight-normal);
+    }
+
     .nav-toggle{
         display: inline-block;
         width: 40px;
@@ -310,30 +326,46 @@
         cursor: pointer;
     }
 
+    .nav-close{
+        cursor: pointer;
+    }
+
     .mof-nav-wpr{
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         display: none;
         width: 100%;
+        height: 100vh;
         background-color: var(--secondary-color);
-        padding: 0 32px;
-        z-index: 10;
+        padding: 0 16px;
+        z-index: 1000;
     }
 
     .mof-main-nav{
+        position: relative;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        gap: 0;
+        gap: 8px;
+        top: calc(100vh - 80vh);
     }
 
     .mof-main-nav .nav-item{
         width: 100%;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: 1s ease-in-out;
+    }
+
+    .mof-nav-wpr.show .nav-item{
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .mof-main-nav .nav-item a{
-        border-bottom: 1px solid rgb(255 255 255 / 12%);
+        font-size: 32px;
+        font-weight: var(--font-weight-normal);
         padding: 8px 0;
     }
 
@@ -342,7 +374,8 @@
     }
 
     .mof-main-nav .nav-item a.active{
-        border-bottom-width: 2px;
+        color: var(--primary-color);
+        border-bottom: 0;
     }
 
     /* Mobile Nav End */
@@ -530,7 +563,7 @@
     }
 
     .mof-faq.faq-2{
-        margin: 100px 0;
+        margin: 50px 0 100px;
     }
 
     .faq-2 .faq-list .faq {
@@ -895,6 +928,15 @@
         font-size: 10px;
         font-weight: var(--font-weight-normal);
     }
+
+    .preloader .content{
+        gap: 16px;
+        justify-content: space-between;
+    }
+    
+    .load-bar{
+       width: 100px;
+    }
     
 }
 
@@ -1245,7 +1287,7 @@
     }
 
     .mof-faq.faq-2{
-        margin: 80px 0;
+        margin: 50px 0 80px;
     }
 
     .faq-2 .faq input[type="radio"]:checked ~ .faq-content-wpr{
